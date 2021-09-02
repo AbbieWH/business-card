@@ -1,0 +1,115 @@
+#header {
+    position: relative;
+    text-align: center;
+    color: rgb(54, 31, 14);
+}
+
+#header h1 {
+    position: absolute;
+    bottom: 15%;
+    left: 30px;
+    font-family: "Meddon";
+}
+
+table{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+th{
+    border: solid;
+    border-color:wheat;
+    border-radius: 5px;
+    height: 20px;
+    color: #634a3b;
+    background-color: rgba(	245, 245, 220, 0.2);
+    line-height: 10px;
+    font-family: "Kaisei Tokumin";
+    font-weight: 700;
+    font-size: 12px;
+}
+
+th:hover {
+    background-color:cornsilk;
+}
+
+#profile{
+    padding: 20px;
+}
+
+#about-me,#experience,#hobbies,#contact {
+    padding: 10px 20px;
+}
+
+#education {
+    padding: 10px 35px;
+}
+
+img#about-me {
+    padding: 65px 20px;
+    float: left;
+    border-radius: 50%;
+    opacity: 0;
+    animation-name: content;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes content {
+    0%   {opacity: 0}
+    100% {opacity: 1}
+}
+
+p,ul{
+    line-height: 35px;
+    font-family: "Kaisei Tokumin";
+    font-size: 14px;
+    animation-name: content;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+tbody {
+    color: #492B00;
+    background-color:rgba(255, 251, 241, 0.5);
+    overflow: scroll;
+}
+
+form {
+    padding: 10px;
+    animation-name: content;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+input[type=text], textarea {
+    line-height: 25px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 6px; 
+    resize: none;
+    font-family: "Kaisei Tokumin";
+    animation-name: content;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  input[type=submit]{
+    background-color: #aa7951;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Kaisei Tokumin";
+  }
+  
+  input[type=submit]:hover {
+    background-color: #684931;
+  }
