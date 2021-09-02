@@ -113,3 +113,10 @@ input[type=text], textarea {
   input[type=submit]:hover {
     background-color: #684931;
   }
+
+  a:link,a:hover,a:visited,a:active {
+    color: #634a3b;
+  }
+
+
+
