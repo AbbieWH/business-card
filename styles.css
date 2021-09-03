@@ -4,18 +4,23 @@
     color: rgb(54, 31, 14);
 }
 
-#header h1 {
-    position: absolute;
-    bottom: 15%;
-    left: 30px;
-    font-family: "Meddon";
+/* #header h1 { */
+    /* position: absolute; */
+    /* bottom: 15%; */
+    /* left: 30px; */
+    /* font-family: "Meddon"; */
+/* } */
+
+#header img {
+    max-width: 100%;
 }
 
 table{
-    width: 800px;
+    /* width: 800px; */
     margin-right: auto;
     margin-left: auto;
     margin-top: 5px;
+    width: 70%;
 }
 
 th{
